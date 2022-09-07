@@ -2,8 +2,18 @@
 // imports
 import { ref } from "vue";
 import CartItem from "./CartItem.vue";
-import products from "@/data/products.json";
-import cartItems from "@/data/cart.json";
+// import products from "@/data/products.json";
+// import cartItems from "@/data/cart.json";
+
+import {useProductStore} from "@/stores/ProductStore"
+import {useCartStore} from "@/stores/CartStore"
+import {storeToRefs} from "pinia/dist/pinia";
+
+// const productStore = useProductStore();
+// const cartStore = useCartStore();
+
+const { products } = storeToRefs(useProductStore());
+const { cartItems } = storeToRefs(useCartStore());
 
 // data
 const active = ref(false);
