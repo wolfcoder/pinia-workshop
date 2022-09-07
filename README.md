@@ -13,4 +13,4 @@ Slides:
 https://slides.com/danielkelly-2/deck-f9d9d3/#/74
 https://vueschool.notion.site/Pinia-Exercise-2-State-5198b3c278094ee08da9a6be34f28ad6
 
-Pinia 2 branch
+Pinia 2 branch remove old github
